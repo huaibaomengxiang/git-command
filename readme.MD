@@ -16,7 +16,9 @@
  11.git checkout -- filename 用版本库的版本代替工作区的版本  
  12.git rm filename 删除版本库中的文件  
  
- 13.git remote add origin git@github.com:xxxxx/xxx.git 本地仓库跟远程仓库关联  
+ 13.git remote add origin git@github.com:xxxxx/xxx.git 本地仓库跟远程仓库关联    
+ 如果仓库版本跟本地版本不一致先执行  
+ git pull origin master --allow-unrelated-histories   
  14.git push -u origin master 第一次提交加-u
   
   
